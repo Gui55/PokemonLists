@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="recycler_height">400dp</dimen>
+    <dimen name="recycler_line_height">180dp</dimen>
+    <dimen name="default_card_height">150dp</dimen>
+    <dimen name="default_recycler_square">100dp</dimen>
+    <dimen name="recycler_line_margin_square">15dp</dimen>
+    <dimen name="text_width_default">200dp</dimen>
+    <dimen name="text_height_default">50dp</dimen>
+    <dimen name="text_margin_recycler">20dp</dimen>
 </resources>
