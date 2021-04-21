@@ -17,7 +17,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/pokeImage"
+                android:id="@+id/pagePokeImage"
                 android:layout_width="@dimen/default_recycler_square"
                 android:layout_height="@dimen/default_recycler_square"
                 android:layout_marginStart="@dimen/recycler_line_margin_square"
@@ -26,22 +26,22 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/pokeName"
+                android:id="@+id/pagePokeName"
                 android:layout_marginTop="@dimen/text_margin_recycler"
                 android:layout_width="@dimen/text_width_default"
                 android:layout_height="@dimen/text_height_default"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/pokeImage"
+                app:layout_constraintStart_toEndOf="@+id/pagePokeImage"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/pokeId"
+                android:id="@+id/pagePokeId"
                 android:layout_marginBottom="@dimen/text_margin_recycler"
                 android:layout_width="@dimen/text_width_default"
                 android:layout_height="@dimen/text_height_default"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/pokeImage" />
+                app:layout_constraintStart_toEndOf="@+id/pagePokeImage" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
